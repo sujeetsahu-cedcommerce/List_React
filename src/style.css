@@ -1,0 +1,31 @@
+.main_container{
+  background-color: bisque;
+  width: 50%;
+  margin: auto;
+  box-shadow: 20px 20px 30px black;
+}
+
+.main_container h3{
+   text-align: center;
+   text-shadow: 10px 10px 30px black;
+
+
+}
+table tr td input{
+    width:20vw;
+    height:4vh;
+}
+
+table tr td{
+    padding-right: 50px;
+}
+
+.table2 tr th,td{
+    padding-right: 15vw;
+}
+
+button{
+    padding: 2vh 3vw 2vh 3vw;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
