@@ -19,9 +19,13 @@ table tr td input{
 table tr td{
     padding-right: 50px;
 }
-
-.table2 tr th,td{
-    padding-right: 15vw;
+.table2{
+    width: 100%;
+    margin: auto;
+}
+.table2 td{
+    text-align: center;
+    font-size: 2vw;
 }
 
 button{
@@ -29,3 +33,27 @@ button{
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+
+
+/* UserNamelis Question */
+
+.sub_Box1{
+    /* border: 1px solid black; */
+    width:50%;
+    margin: auto;
+}
+
+.sub_Box2{
+    /* border:1px solid black; */
+    width:50%;
+    margin: auto;
+    background-color: blanchedalmond;
+    box-shadow: 20px 20px 20px black;
+}
+
+.sub_sub_Box1{
+    border: 1px solid black;
+    /* margin-bottom: 2px; */
+}
+
