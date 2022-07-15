@@ -37,7 +37,7 @@ export default class UserNameList extends Component {
   render() {
     return (
       <div className="main_box">
-        <div className="sub_Box1">
+        <div className="sub_Box1" style={{boxShadow:"20px 20px 30px black"}}>
           <input type="text" value={this.state.input_value} placeholder="Enter New Items"onChange={this.Take_Value} style={{height:"38px"}}/>
           <button onClick={this.Display_item}>Add</button>
         </div>

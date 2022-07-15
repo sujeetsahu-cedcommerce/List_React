@@ -36,7 +36,7 @@ button{
 
 
 
-/* UserNamelis Question */
+/* Q4. Using class components create a username list as shown. */
 
 .sub_Box1{
     /* border: 1px solid black; */
@@ -55,5 +55,46 @@ button{
 .sub_sub_Box1{
     border: 1px solid black;
     /* margin-bottom: 2px; */
+}
+
+/* Q3. Move items between two groups as shown in attachment. */
+.Groups{
+    width: 50%;
+    margin: auto;
+    border: 1px solid black;
+    box-shadow: 20px 20px 20px black;
+    background-color: crimson;
+}
+
+.group1{
+    display: inline-block;
+    width: 12vw;
+    margin: 10%;
+    box-shadow: 20px 20px 20px black;
+    text-align: center;
+    background-color: cadetblue;
+}
+
+.group2{
+    display: inline-block;
+    width: 12vw;
+    margin: 10%;
+    box-shadow: 20px 20px 20px black;
+    text-align: center;
+    background-color: cadetblue;
+
+}
+
+select{
+    width: 100%;
+    height: 200px;
+    text-align: center;
+}
+
+.icons{
+    display: inline-block;
+    border: 1px solid black;
+    width: 10%;
+    box-shadow: 20px 20px 20px black;
 }
 
